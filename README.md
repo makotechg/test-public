@@ -3,9 +3,9 @@
 - use personal access token to communicate with https://github.com/makotechg/test-public
 
 - go.mod
-    - `go mod init  github.com/makotechg/test-public`
+    - `go mod init  github.com/makotechg/test-public-https`
     - ```go.mod
-        module github.com/makotechg/test-public
+        module github.com/makotechg/test-public-https
 
         go 1.16
         ```
@@ -13,7 +13,7 @@
 - main.go
     - ```
         import (
-        	"github.com/makotechg/test-public/subpkg"
+        	"github.com/makotechg/test-public-https/subpkg"
         )
         ```
 
