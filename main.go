@@ -1,7 +1,7 @@
 package main
 
 import (
-	"test-public/subpkg"
+	"github.com/makotechg/test-public/subpkg"
 )
 
 func main() {
