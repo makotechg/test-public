@@ -17,5 +17,8 @@
         )
         ```
 
-## how to change remote url
-- `git remote set-url origin ${NEW_URL}`
+## how to use remote url command
+- change
+    - `git remote set-url ${ORIGINAL_REMOTE_REPO_NAME} ${NEW_URL}`
+- add
+    - `git remote add ${ORIGINAL_REMOTE_REPO_NAME} ${NEW_URL}`
